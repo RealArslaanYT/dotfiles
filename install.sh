@@ -13,7 +13,7 @@ brew tap FelixKratz/formulae
 
 echo "## yabai ##"
 echo "Installing yabai..."
-brew install koekeishiya/tap/yabai
+brew install koekeishiya/formulae/yabai
 echo "Cloning config..."
 git clone https://github.com/RealArslaanYT/dotfiles.git /tmp/dotfiles
 mv $HOME/.config/yabai $HOME/.config/yabai_backup
