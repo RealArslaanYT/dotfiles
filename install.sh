@@ -66,6 +66,9 @@ brew services start sketchybar
 yabai --start-service
 skhd --start-service
 
+echo "## Purging temp files ##"
+rm -rf /tmp/dotfiles
+
 csrutil status
 echo "(optional) you may want to disable SIP for advanced yabai features."
 echo "Installation complete!"
