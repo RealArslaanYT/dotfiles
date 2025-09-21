@@ -53,6 +53,7 @@ mv /tmp/dotfiles/.config/sketchybar $HOME/.config/sketchybar
 echo "Done!"
 
 echo "## Other tools & apps ##"
+brew install mas
 brew install --cask spotify
 mas install 497799835 # Xcode
 brew install --cask iterm2
